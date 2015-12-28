@@ -19,17 +19,29 @@
 	width: 100%;
 	background-color: #34495E;
 	color: #fff;
+	padding: 30px;
 }
 .list-foo li{
 text-align: none;
+text-decoration: none;
 }
 .cont-foo2 {
 	width: 100%;
 	background-color: #2C3E50;
 	color: #fff;
+	padding: 20px;
+
 }
 .lis-footer li{
 	display: inline-block;
 	text-align: none;
-	float: right;
+
+	padding: 10px;
+}
+.btn-rs {
+background-color: #D9534F;
+color: #fff;
+}
+.par-foo{
+	padding: 10px;
 }
