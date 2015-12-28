@@ -13,3 +13,22 @@
 .clearfix:after {
   clear: both;
 }
+
+.cont-foo {
+	width: 100%;
+	background-color: #34495E;
+	color: #fff;
+}
+.list-foo li{
+text-align: none;
+}
+.cont-foo2 {
+	width: 100%;
+	background-color: #2C3E50;
+	color: #fff;
+}
+.lis-footer li{
+	display: inline-block;
+	text-align: none;
+	float: right;
+}
