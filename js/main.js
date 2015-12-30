@@ -1,4 +1,4 @@
-jQuery(function ($) {
+    jQuery(function ($) {
 
     $('.centered').each(function (e) {
         $(this).css('margin-top', ($('#main-slider').height() - $(this).height()) / 2);

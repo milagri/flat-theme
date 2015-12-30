@@ -7,9 +7,11 @@
     <meta name="author" content="">
     <title>Home | Flat Theme</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/foundation.min.css" rel="stylesheet">
     <link href="css/font-awesome.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
+    <link href="css/colors.css" rel="stylesheet">
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
     <script src="js/respond.min.js"></script>
@@ -21,41 +23,152 @@
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
   </head>
   <body>
-<div class="container">
-<div class="row">
-<nav class=" navbar-default">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a href="#"><h2><i class="fa fa-heart"> </i>Flat Theme</h2></a>
+
+    <div class="header">
+     <div class="row">
+        <nav class="color1 navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="#"><img src="images/logo.png" class="logo"></a>
+            </div>
+
+            <div id="bs-example-navbar-collapse-1">
+                <ul class="color5 navbar-right nav navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
     </div>
+    </div>
+    
+    <div class="ssssssssss">
+    <div
+    <section id="miSlide" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#miSlide" data-slide-to="0" class="active"></li>
+            <li data-target="#miSlide" data-slide-to="1"></li>
+            <li data-target="#miSlide" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active"><img src="images/slider/bg1.jpg" class="adaptar"></div>
+            <div class="item"><img src="images/slider/bg2.jpg" class="adaptar"></div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div id="bs-example-navbar-collapse-1">
-      <ul class="navbar-right nav navbar-nav  ">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+            <div class="item"><img src="images/slider/bg3.jpg" class="adaptar"></div>
+        </div>
+    </section>
+    </div>
+     <h3 class="animated swing">Pwerful and Responsive Web Design</h3>
+        <p>Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+    
+    <div class="container">
+
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="media-left">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse "></i>
+                </span>
+            </div>
+            <div class="media-left">
+                <h4>Twitter Marketing</h4>
+                <p>Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="media-left">
+                <span class="fa-stack fa-3x">
+                    <i class="fa fa-circle fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4>Facebook Marketing</h4>
+                <p>Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="media-left">
+                <span class="fa-stack fa-3x">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-google-plus fa-stack-1x fa-inverse"></i>
+                </span>
+            </div>
+            <div class="media-body">
+                <h4>Google Plus Marketing</h4>
+                <p>Pallentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.</p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3">
+            <h3>Our Latest Project</h3>
+            <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+            <button><span class="fa fa-angle-left"></span></button><button><span class="fa fa-angle-right"></span></button>
+        </div>
+        <div class="col-md-9">
+            <div class="col-xs-4">
+                <img src="images/portfolio/recent/item1.png">
+                <h4>Nova - Corporate site template</h4>
+            </div>
+            <div class="col-xs-4">
+                <img src="images/portfolio/recent/item3.png">
+                <h4>Fornax Apps site template</h4>
+            </div>
+            <div class="col-xs-4">
+                <img src="images/portfolio/recent/item2.png">
+                <h4>Flat Theme - Business Theme</h4>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+        <h3>What our clients say</h3>
+        <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
         
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div>
+        </div>
+        <div class="col-md-6">
+            <div class="col-md-12">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>&mdash; Someone famous in Source Title</p>
+                
+            </div>
+            <div class="col-md-12">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>&mdash; Someone famous in Source Title</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+          <div class="col-md-12">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>&mdash; Someone famous in Source Title</p>
 
+            </div>
+            <div class="col-md-12">
+                <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Integer posuere erat a ante</h4>
+                <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                <p>&mdash; Someone famous in Source Title</p>
+            </div>  
+        </div>
+    </div>
 
 
 
     <footer>
-        <div class="container">
+        
             <div class="row">
                 <div class="col-sm-3">
                     <h4>About Us</h4>
@@ -145,7 +258,34 @@
 
 
     <script src="js/jquery.js"></script>
+    <script src="js/foundation.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+    
+    <script>
+    
+    $(document).ready(init);
+
+    function init()
+    {
+        //inicio de aplicación
+        $(".navbar-nav a").click(selectMenu);
+    }
+   
+     function selectMenu()
+    {
+        //$(".navbar-default .navbar-nav>li>a").removeClass('active');
+        //$(this).addClass('active');
+        TweenMax.to(".navbar-nav a", 1, { css:{rotation:0, background:"transparent", fontSize:"15px"}, ease: Elastic.easeOut});
+        TweenMax.to(this, 1, {rotation:0, ease: Back.easeOut});
+        TweenMax.to(this, 1, {css:{background:"orange", fontSize:"15px"}});
+    }
+</script>
+    </script>
   </body>
 </html>
+
+
+
+
