@@ -13,6 +13,7 @@
 .clearfix:after {
   clear: both;
 }
+
 .header
 {
 	padding: 15px 0px;
@@ -39,3 +40,58 @@
 {
 	width: 100%;
 }
+
+.cont-foo {
+	width: 100%;
+	background-color: #34495E;
+	color: #fff;
+	padding: 30px;
+}
+.list-foo li{
+list-style: none;
+
+}
+.cont-foo2 {
+	width: 100%;
+	background-color: #2C3E50;
+	color: #fff;
+	padding: 20px;
+
+}
+.lis-footer li{
+	display: inline-block;
+	list-style: none;
+
+	padding: 10px;+
+}
+.btn-rs {
+background-color: #D9534F;
+color: #fff;
+}
+.par-foo{
+	padding: 10px;
+}
+/*-----porta---*/
+.her_green{
+	background-color:#2ECC71;
+	color: #fff;
+	height: 180px;
+	padding: 3%;
+
+}
+.port-gal{
+	background-color: #F5F5F5;
+	padding: 5%;
+}
+.list_green li{
+	list-style: none;
+	display:inline-block;
+	float: right;
+	padding: 10px;
+}
+.list_green li a{
+	color: #fff;
+	text-align: center;
+	padding-top: 20%;
+}
+
