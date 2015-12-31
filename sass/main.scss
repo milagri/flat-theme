@@ -327,7 +327,7 @@ footer
 	display: inline-block;
 	padding: 0px 5px;
 }
-/*-----porta---*/
+
 .her_green{
 	background-color:#2ECC71;
 	color: #fff;
@@ -353,13 +353,10 @@ footer
 	
 	font-weight: 100; 
 }
-.list_green {
+.list_green 
+{
     padding-top: 80px;
 }
-<<<<<<< HEAD
-.list_green
-{
-=======
 .list_green li{
 	list-style: none;
 	display:inline-block;
@@ -385,28 +382,37 @@ footer
   height: 180px;
   padding: 3%; }
 
-.port-gal {
+.port-l2 
+{
   background-color: #F5F5F5;
   padding: 5%; }
+  .list_green
+  {
+  float: right;
+  }
 
-.list_green li {
+
+.listas-m li {
   list-style: none;
   display: inline-block;
-  float: right;
-  padding: 10px; }
+  padding: 10px ; 
+  color:  #C1F0D5}
 
-.list_green li a {
-  color: #fff;
+.listas-m li a {
+  color:  #C1F0D5;
   text-align: center;
-  padding-top: 20%; 
-  float: right;}
+  }
+  .listas-m {
+float: right;
+margin: 80px 0px 0px;
 
-.list_green li a:hover{
-color: #C1F0D5;
+}
+.listas-m li a:hover
+{
+color: #fff;
 text-decoration: none;
 }
-
-.titulo-p
+titulo-p
 {
 	float: left;
 }
@@ -466,10 +472,100 @@ text-decoration: none;
 }
 .list-prog
 {
-	padding: 2% 2.5% 3% 2.5%;
+	padding: 4% 2.5% 4% 2.5%;
 
 }
-.media-body p
+.list-prog .col-sm-4
 {
-	color: black;
+	margin: 0px;
+	padding: 0% 3% 0% 0%;
+	box-sizing: border-box;
+
+	
+}
+.media-left
+{
+	padding-right: 5px;
+}
+.list-prog .col-sm-4 p,.col-md-3 p
+{
+	font-size: 15px;
+	color: #354A5F;
+	font-weight: 400;
+
+	
+}
+.list-prog .col-sm-4 .text, .col-md-3 .text
+{
+	font-size: 24px;
+	color: #34495E;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	margin: 0px;
+}
+.programas2 .col-sm-12
+{
+	margin-top: 30px;
+}
+
+.list-prog .col-md-12 h1
+{
+	color: #34495E;
+	text-align: center;
+}
+.list-prog .col-md-12 p
+{
+	color: #34495E;
+	text-align: center;
+	padding-bottom: 40px;
+}
+.servicio
+{
+	padding: 4% 2.5% 8% 2.5%;
+}
+.servicio .titulo h1
+{
+	margin: 0px;
+	text-align: center;
+	color: #34495E;
+	font-weight: 300;
+	margin-bottom:9px;
+}
+.servicio .titulo p
+{
+	
+	text-align: center;
+	margin-bottom:50px;
+	
+}
+.servicio .col-md-12 .subtitulo
+{
+	font-size: 14px;
+	color: #34495E;
+	font-weight: 300;
+
+	
+}
+.c-texto
+{
+	border-left: 5px solid #34495E;
+	margin: 15px 0px;
+}
+.c-texto .c-especial
+{
+	font-size: 12px;
+	color: #34495E;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	padding: 0px;
+
+}
+.c-texto p
+{
+	font-size: 17.5px;
+	color: #34495E;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+	padding: 8px 0px;
+
 }
