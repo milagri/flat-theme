@@ -101,7 +101,7 @@ h1, h2, h3, h4, h5, h6, p {
 .pictures {
   padding: 8% 2.5% 10% 2.5%; }
 
-.pictures .col-md-3, .pictures .col-md-9, .pictures .col-md-9 .col-xs-4, .col-md-6, .futer .col-md-3 {
+.pictures .col-md-3, .pictures .col-md-9, .pictures .col-md-9 .col-xs-4, .col-md-6, .futer .col-md-3, .portafolio .col-md-12, .portafolio .col-md-12 .col-xs-4 {
   padding: 0px;
   box-sizing: border-box; }
 
@@ -261,11 +261,71 @@ footer {
   list-style: none;
   display: inline-block;
   float: right;
-  padding: 10px; }
+  padding: 10px;
+  color: #fff; }
 
 .list_green li a {
   color: #fff;
   text-align: center;
-  padding-top: 20%; }
+  font-weight: 100; }
+
+.list_green {
+  padding-top: 80px; }
+
+.list_green {
+  float: right; }
+
+.list_green li a:hover {
+  color: #C1F0D5;
+  text-decoration: none; }
+
+.titulo-p {
+  float: left; }
+
+.her_green {
+  float: left; }
+
+.her_green h3 {
+  font-size: 40px;
+  font-weight: 400; }
+
+.her_green p {
+  font-size: 12px;
+  font-weight: 100; }
+
+.port1 {
+  padding: 1.5% 0% 1.5% 0%; }
+
+.portafolio {
+  padding: 6% 2.5% 6% 2.5%; }
+
+.photo2 {
+  background: #fff;
+  padding: 8px;
+  box-sizing: border-box;
+  margin: 0px 15px;
+  outline: 1px solid #c9d1d6; }
+
+.photo2 img {
+  width: 100%; }
+
+.photo2 p {
+  font-size: 15px;
+  font-weight: 700;
+  text-align: left;
+  margin: 0px;
+  padding-top: 2px; }
+
+.portafolio .col-md-12 {
+  margin-top: 30px; }
+
+.programs {
+  background: #F5F5F5; }
+
+.list-prog {
+  padding: 2% 2.5% 3% 2.5%; }
+
+.media-body p {
+  color: black; }
 
 /*# sourceMappingURL=main.css.map */
