@@ -40,11 +40,11 @@
             <div id="bs-example-navbar-collapse-1">
                 <ul class="color5 navbar-right nav navbar-nav">
                     <li><a href="index.html">Home</a></li>
-                    <li><a href="about-us.html">About Us</a></li>
+                    <li><a href="#">About Us</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="portafolio.html">Portfolio</a></li>
                     <li><a href="blog.html">Blog</a></li>
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="contact-us">Contact</a></li>
                 </ul>
             </div>
         </nav>
@@ -294,5 +294,24 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <script>
+    
+    $(document).ready(init);
+
+    function init()
+    {
+        //inicio de aplicación
+        $(".navbar-nav a").click(selectMenu);
+    }
+   
+     function selectMenu()
+    {
+        //$(".navbar-default .navbar-nav>li>a").removeClass('active');
+        //$(this).addClass('active');
+        TweenMax.to(".navbar-nav a", 1, { css:{rotation:0, background:"transparent", fontSize:"15px"}, ease: Elastic.easeOut});
+        TweenMax.to(this, 1, {rotation:0, ease: Back.easeOut});
+        TweenMax.to(this, 1, {css:{background:"red", fontSize:"15px"}});
+    }
+</script>
   </body>
 </html>
